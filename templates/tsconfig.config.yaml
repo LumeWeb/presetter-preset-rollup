@@ -1,6 +1,8 @@
 extends: .
 include:
-    - '.'
+    - 'rollup.config.ts'
 compilerOptions:
     # emittance
     outDir: '.'
+    noEmit: false
+    declaration: false
