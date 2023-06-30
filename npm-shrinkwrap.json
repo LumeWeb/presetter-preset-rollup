@@ -1,12 +1,12 @@
 {
     "name": "presetter-preset-rollup",
-    "version": "4.0.2-develop.1",
+    "version": "4.0.2-develop.2",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "presetter-preset-rollup",
-            "version": "4.0.2-develop.1",
+            "version": "4.0.2-develop.2",
             "license": "MIT",
             "dependencies": {
                 "presetter-types": "^4.0.1",

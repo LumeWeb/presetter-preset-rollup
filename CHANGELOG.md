@@ -1,3 +1,10 @@
+## [4.0.2-develop.2](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.1...v4.0.2-develop.2) (2023-06-30)
+
+
+### Bug Fixes
+
+* add files to package.json ([486314d](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/486314de6b9d67a9eb9143c786cec3eac6ab7735))
+
 ## [4.0.2-develop.1](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.1...v4.0.2-develop.1) (2023-06-30)
 
 # Changelog
