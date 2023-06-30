@@ -1,21 +1,21 @@
-input: '{source}/index.ts'
+input: '{source}/index.js'
 output:
-  - file: '{output}/index.js'
-    format: cjs
-    sourcemap: true
+    -   file: '{output}/index.js'
+        format: cjs
+        sourcemap: true
 plugins:
-  - '@apply @rollup/plugin-json[default]'
-  - '@apply @rollup/plugin-node-resolve[default]'
-  - - '@apply @rollup/plugin-commonjs[default]'
-    - extensions:
-        - .js
-        - .jsx
-        - .ts
-        - .tsx
-  - '@apply @rollup/plugin-graphql[default]'
-  - '@apply @rollup/plugin-image[default]'
-  - '@apply @rollup/plugin-yaml[default]'
-  - - '@apply rollup-plugin-postcss[default]'
-    - inject:
-        insertAt: top
-  - '@apply rollup-plugin-visualizer[visualizer]'
+    - '@apply @rollup/plugin-json[default]'
+    - '@apply @rollup/plugin-node-resolve[default]'
+    -   - '@apply @rollup/plugin-commonjs[default]'
+        -   extensions:
+                - .js
+                - .jsx
+                - .ts
+                - .tsx
+    - '@apply @rollup/plugin-graphql[default]'
+    - '@apply @rollup/plugin-image[default]'
+    - '@apply @rollup/plugin-yaml[default]'
+    -   - '@apply rollup-plugin-postcss[default]'
+        -   inject:
+                insertAt: top
+    - '@apply rollup-plugin-visualizer[visualizer]'

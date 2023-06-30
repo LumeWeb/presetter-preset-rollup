@@ -41,11 +41,13 @@ export type Variable = {
   source: string;
   /** the directory containing all the compiled files (default: lib) */
   output: string;
+  buildSource: string;
 };
 
 export const DEFAULT_VARIABLE: Variable = {
-  source: 'source',
+  source: 'build',
   output: 'lib',
+  buildSource: 'buildSource',
 };
 
 /**
@@ -71,8 +73,12 @@ export default function (): PresetAsset {
     scripts: resolve(TEMPLATES, 'scripts.yaml'),
     noSymlinks: ['rollup.config.ts'],
     supplementaryConfig: {
-      gitignore: ['/rollup.config.ts'],
-      rollup: resolve(CONFIGS, 'rollup.yaml'),
+      'gitignore': ['/rollup.config.ts'],
+      'rollup': resolve(CONFIGS, 'rollup.yaml'),
+      'tsconfig.build': {
+        include: ['{buildSource}'],
+        outDir: ['{source}'],
+      },
     },
     variable: DEFAULT_VARIABLE,
   };
