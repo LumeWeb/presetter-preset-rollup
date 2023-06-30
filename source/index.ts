@@ -47,7 +47,7 @@ export type Variable = {
 export const DEFAULT_VARIABLE: Variable = {
   source: 'build',
   output: 'lib',
-  buildSource: 'buildSource',
+  buildSource: 'src',
 };
 
 /**
