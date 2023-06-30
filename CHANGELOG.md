@@ -1,3 +1,10 @@
+## [4.0.2-develop.3](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.2...v4.0.2-develop.3) (2023-06-30)
+
+
+### Bug Fixes
+
+* add [@ts-nocheck](https://git.lumeweb.com/ts-nocheck) for rollup config ([cc72325](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/cc72325e5f87a5c0c32e25f60b2af8a654dc8517))
+
 ## [4.0.2-develop.2](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.1...v4.0.2-develop.2) (2023-06-30)
 
 
