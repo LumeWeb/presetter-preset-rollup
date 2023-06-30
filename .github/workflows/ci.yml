@@ -1,0 +1,19 @@
+name: Build/Publish
+
+on:
+    workflow_dispatch:
+        inputs:
+            debug_enabled:
+                description: Debug
+                type: boolean
+                default: false
+    push:
+        branches:
+            - master
+            - develop
+            - develop-*
+
+jobs:
+    main:
+        uses: lumeweb/github-node-deploy-workflow/.github/workflows/main.yml@master
+        secrets: inherit
