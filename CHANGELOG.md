@@ -1,3 +1,10 @@
+## [4.0.2-develop.9](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.8...v4.0.2-develop.9) (2023-06-30)
+
+
+### Bug Fixes
+
+* outDir should not be an array and needs to be under compilerOptions ([f392036](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/f3920365cc975fda24a481b005a00f3f737651ed))
+
 ## [4.0.2-develop.8](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.7...v4.0.2-develop.8) (2023-06-30)
 
 
