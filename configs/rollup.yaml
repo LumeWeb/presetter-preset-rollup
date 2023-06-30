@@ -3,9 +3,6 @@ output:
   - file: '{output}/index.js'
     format: cjs
     sourcemap: true
-  - file: '{output}/index.mjs'
-    format: es
-    sourcemap: true
 plugins:
   - '@apply @rollup/plugin-json[default]'
   - '@apply @rollup/plugin-node-resolve[default]'
