@@ -1,3 +1,10 @@
+## [4.0.2-develop.4](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.3...v4.0.2-develop.4) (2023-06-30)
+
+
+### Bug Fixes
+
+* update tsconfig.config ([a9001da](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/a9001da2736ce97199abbd2350bbc20269670add))
+
 ## [4.0.2-develop.3](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.2...v4.0.2-develop.3) (2023-06-30)
 
 
