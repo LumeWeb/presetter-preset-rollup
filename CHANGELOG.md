@@ -1,3 +1,10 @@
+## [4.0.2-develop.5](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.4...v4.0.2-develop.5) (2023-06-30)
+
+
+### Bug Fixes
+
+* dont pass file as argument ([41645d9](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/41645d9661c1527719becdd6f0ff134126202a80))
+
 ## [4.0.2-develop.4](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.3...v4.0.2-develop.4) (2023-06-30)
 
 
