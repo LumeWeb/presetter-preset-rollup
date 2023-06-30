@@ -23,7 +23,7 @@
         "url": "gitea@git.lumeweb.com:LumeWeb/presetter-preset-rollup.git"
     },
     "scripts": {
-        "bootstrap": "presetter bootstrap && run prepare",
+        "prepare": "presetter bootstrap",
         "build": "run build"
     },
     "peerDependencies": {
