@@ -1,48 +1,51 @@
 {
-  "name": "presetter-preset-rollup",
-  "version": "4.0.1",
-  "description": "An opinionated presetter preset for using rollup as a bundler",
-  "keywords": [
-    "presetter",
-    "preset"
-  ],
-  "homepage": "https://github.com/alvis/presetter#readme",
-  "bugs": {
-    "url": "https://github.com/alvis/presetter/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Alvis HT Tang",
-    "email": "alvis@hilbert.space"
-  },
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alvis/presetter.git"
-  },
-  "scripts": {
-    "bootstrap": "presetter bootstrap && run prepare",
-    "build": "run build"
-  },
-  "peerDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.0",
-    "@rollup/plugin-graphql": "^2.0.0",
-    "@rollup/plugin-image": "^3.0.0",
-    "@rollup/plugin-json": "^6.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
-    "@rollup/plugin-yaml": "^4.0.0",
-    "rollup": "^3.0.0",
-    "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-visualizer": "^5.0.0"
-  },
-  "devDependencies": {
-    "presetter": "^4.0.1",
-    "presetter-preset-esm": "^4.0.1"
-  },
-  "dependencies": {
-    "presetter-types": "^4.0.1",
-    "type-fest": "^3.12.0"
-  }
+    "name": "presetter-preset-rollup",
+    "version": "4.0.1",
+    "description": "An opinionated presetter preset for using rollup as a bundler",
+    "keywords": [
+        "presetter",
+        "preset"
+    ],
+    "homepage": "https://github.com/alvis/presetter#readme",
+    "bugs": {
+        "url": "https://github.com/alvis/presetter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Alvis HT Tang",
+        "email": "alvis@hilbert.space"
+    },
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/presetter-preset-rollup.git"
+    },
+    "scripts": {
+        "bootstrap": "presetter bootstrap && run prepare",
+        "build": "run build"
+    },
+    "peerDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.0",
+        "@rollup/plugin-graphql": "^2.0.0",
+        "@rollup/plugin-image": "^3.0.0",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.0",
+        "@rollup/plugin-yaml": "^4.0.0",
+        "rollup": "^3.0.0",
+        "rollup-plugin-postcss": "^4.0.0",
+        "rollup-plugin-visualizer": "^5.0.0"
+    },
+    "devDependencies": {
+        "presetter": "^4.0.1",
+        "presetter-preset-esm": "^4.0.1"
+    },
+    "dependencies": {
+        "presetter-types": "^4.0.1",
+        "type-fest": "^3.12.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
