@@ -24,7 +24,8 @@
     },
     "scripts": {
         "prepare": "presetter bootstrap",
-        "build": "run build"
+        "build": "run build",
+        "semantic-release": "semantic-release"
     },
     "peerDependencies": {
         "@rollup/plugin-commonjs": "^25.0.0",
