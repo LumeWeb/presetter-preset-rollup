@@ -7,8 +7,6 @@ output:
     format: es
     sourcemap: true
 plugins:
-  - '@apply rollup-plugin-ts[default]'
-  - '@apply rollup-plugin-tsconfig-paths[default]'
   - '@apply @rollup/plugin-node-resolve[default]'
   - - '@apply @rollup/plugin-commonjs[default]'
     - extensions:

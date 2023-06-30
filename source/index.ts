@@ -66,6 +66,7 @@ export default function (): PresetAsset {
         return template(content, variable);
         /* eslint-enable @typescript-eslint/naming-convention */
       },
+      'tsconfig.config.json': resolve(TEMPLATES, 'tsconfig.config.yaml'),
     },
     scripts: resolve(TEMPLATES, 'scripts.yaml'),
     noSymlinks: ['rollup.config.ts'],

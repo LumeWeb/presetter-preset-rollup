@@ -24,12 +24,7 @@
   },
   "scripts": {
     "bootstrap": "presetter bootstrap && run prepare",
-    "build": "run build",
-    "coverage": "run coverage --",
-    "lint": "run lint --",
-    "prepublishOnly": "run prepare && run prepublishOnly",
-    "test": "run test --",
-    "watch": "run watch --"
+    "build": "run build"
   },
   "peerDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
@@ -38,18 +33,16 @@
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-yaml": "^4.0.0",
-    "presetter": "workspace:*",
     "rollup": "^3.0.0",
     "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-ts": "^3.0.0",
-    "rollup-plugin-tsconfig-paths": "^1.0.0",
     "rollup-plugin-visualizer": "^5.0.0"
   },
   "devDependencies": {
-    "presetter": "workspace:*"
+    "presetter": "^4.0.1",
+    "presetter-preset-esm": "^4.0.1"
   },
   "dependencies": {
-    "presetter-types": "workspace:*",
+    "presetter-types": "^4.0.1",
     "type-fest": "^3.12.0"
   }
 }
