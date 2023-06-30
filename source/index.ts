@@ -77,7 +77,9 @@ export default function (): PresetAsset {
       'rollup': resolve(CONFIGS, 'rollup.yaml'),
       'tsconfig.build': {
         include: ['{buildSource}'],
-        outDir: ['{source}'],
+        compilerOptions: {
+          outDir: '{source}',
+        },
       },
     },
     variable: DEFAULT_VARIABLE,
