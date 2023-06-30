@@ -1,3 +1,10 @@
+## [4.0.2-develop.8](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.7...v4.0.2-develop.8) (2023-06-30)
+
+
+### Bug Fixes
+
+* buildSource needs to be src ([f1d13d0](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/f1d13d00f1ea793205e9be25e7f21a9bb990bb5c))
+
 ## [4.0.2-develop.7](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.6...v4.0.2-develop.7) (2023-06-30)
 
 
