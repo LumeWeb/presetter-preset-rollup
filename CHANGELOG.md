@@ -1,3 +1,10 @@
+## [4.0.2-develop.6](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.5...v4.0.2-develop.6) (2023-06-30)
+
+
+### Bug Fixes
+
+* add build:typescript:* to build script ([edf1960](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/edf1960010004a72fba3b5b6d0649721977d594e))
+
 ## [4.0.2-develop.5](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.4...v4.0.2-develop.5) (2023-06-30)
 
 
