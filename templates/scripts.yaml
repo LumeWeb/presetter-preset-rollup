@@ -4,3 +4,4 @@ build: cross-env NODE_ENV=production run-s clean  build:typescript:* build:rollu
 build:rollup-config: tsc -p tsconfig.config.json
 build:rollup: rollup --config rollup.config.js
 develop: cross-env NODE_ENV=development run-s "build:rollup -- --watch {@}" --
+clean:buildOutput: shx rm -rf {source}
