@@ -1,3 +1,10 @@
+## [4.0.2-develop.7](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.6...v4.0.2-develop.7) (2023-06-30)
+
+
+### Bug Fixes
+
+* typescript needs to come before rollup ([6be363c](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/6be363c7c056360d17d7f5c448b0b0b5bea8b091))
+
 ## [4.0.2-develop.6](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.5...v4.0.2-develop.6) (2023-06-30)
 
 
