@@ -1,5 +1,5 @@
 {
-    "name": "presetter-preset-rollup",
+    "name": "@lumeweb/presetter-preset-rollup",
     "version": "4.0.1",
     "description": "An opinionated presetter preset for using rollup as a bundler",
     "keywords": [
