@@ -1,3 +1,10 @@
+# [4.1.0-develop.2](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.1.0-develop.1...v4.1.0-develop.2) (2023-07-02)
+
+
+### Bug Fixes
+
+* use optional chain syntax as the property might not be set ([2077d4e](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/2077d4e70d37e7cf7f23a3db8e2d93ca414b1e2d))
+
 # [4.1.0-develop.1](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.12...v4.1.0-develop.1) (2023-07-02)
 
 
