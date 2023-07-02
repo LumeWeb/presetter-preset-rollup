@@ -31,10 +31,10 @@
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "presetter": "^4.0.1",
-        "semantic-release": "^21.0.6",
-        "rollup": "^3.0.0"
+        "semantic-release": "^21.0.6"
     },
     "dependencies": {
+        "rollup": "^3.0.0",
         "@rollup/plugin-commonjs": "^25.0.0",
         "@rollup/plugin-graphql": "^2.0.0",
         "@rollup/plugin-image": "^3.0.0",
