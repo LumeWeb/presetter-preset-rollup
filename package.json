@@ -27,24 +27,23 @@
         "build": "run build",
         "semantic-release": "semantic-release"
     },
-    "peerDependencies": {
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "presetter": "^4.0.1",
+        "semantic-release": "^21.0.6",
+        "rollup": "^3.0.0"
+    },
+    "dependencies": {
         "@rollup/plugin-commonjs": "^25.0.0",
         "@rollup/plugin-graphql": "^2.0.0",
         "@rollup/plugin-image": "^3.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^15.0.0",
         "@rollup/plugin-yaml": "^4.0.0",
-        "rollup": "^3.0.0",
         "rollup-plugin-postcss": "^4.0.0",
-        "rollup-plugin-visualizer": "^5.0.0"
-    },
-    "devDependencies": {
-        "@semantic-release/changelog": "^6.0.3",
-        "@semantic-release/git": "^10.0.1",
-        "presetter": "^4.0.1",
-        "semantic-release": "^21.0.6"
-    },
-    "dependencies": {
+        "rollup-plugin-visualizer": "^5.0.0",
+        "@rollup/plugin-wasm": "^6.1.3",
         "presetter-preset-strict": "^4.0.1",
         "presetter-types": "^4.0.1",
         "type-fest": "^3.12.0"
