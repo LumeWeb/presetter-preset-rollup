@@ -19,3 +19,5 @@ plugins:
         -   inject:
                 insertAt: top
     - '@apply rollup-plugin-visualizer[visualizer]'
+    -   - '@apply @rollup/plugin-wasm[default]'
+        -   targetEnv: auto-inline
