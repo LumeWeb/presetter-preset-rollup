@@ -77,7 +77,7 @@ export default function (): PresetAsset {
       'gitignore': ['/rollup.config.ts'],
       'rollup': (context) => {
         const content = loadFile(resolve(CONFIGS, 'rollup.yaml')) as any;
-        if (context.custom.config.browser) {
+        if (context.custom?.config?.browser) {
           let plugins = content.plugins.map((item) =>
             Array.isArray(item) ? item[0] : item,
           );
