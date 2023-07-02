@@ -1,3 +1,15 @@
+# [4.1.0-develop.1](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.12...v4.1.0-develop.1) (2023-07-02)
+
+
+### Bug Fixes
+
+* inject browser options into node-resolve plugin if config.browser is true ([70a531e](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/70a531e5aa88a68afb67b0ff7902fcfda2d6c298))
+
+
+### Features
+
+* add plugin-wasm ([57ef73d](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/57ef73d9dcfcd835932db0393912eec770c22269))
+
 ## [4.0.2-develop.12](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.11...v4.0.2-develop.12) (2023-07-02)
 
 
