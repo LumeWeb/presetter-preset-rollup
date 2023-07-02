@@ -3,6 +3,7 @@ output:
     -   file: '{output}/index.js'
         format: cjs
         sourcemap: true
+        inlineDynamicImports: true
 plugins:
     - '@apply @rollup/plugin-json[default]'
     - '@apply @rollup/plugin-node-resolve[default]'
