@@ -76,13 +76,15 @@ export default function (): PresetAsset {
     supplementaryConfig: {
       'gitignore': ['/rollup.config.ts'],
       'rollup': resolve(CONFIGS, 'rollup.yaml'),
+      'tsconfig': {
+        compilerOptions: {
+          moduleResolution: 'nodenext',
+        },
+      },
       'tsconfig.build': {
         include: ['{buildSource}'],
         compilerOptions: {
           outDir: '{source}',
-          compilerOptions: {
-            moduleResolution: 'nodenext',
-          },
         },
       },
     },
