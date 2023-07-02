@@ -75,7 +75,31 @@ export default function (): PresetAsset {
     noSymlinks: ['rollup.config.ts'],
     supplementaryConfig: {
       'gitignore': ['/rollup.config.ts'],
-      'rollup': resolve(CONFIGS, 'rollup.yaml'),
+      'rollup': (context) => {
+        const content = loadFile(resolve(CONFIGS, 'rollup.yaml')) as any;
+        if (context.custom.config.browser) {
+          let plugins = content.plugins.map((item) =>
+            Array.isArray(item) ? item[0] : item,
+          );
+
+          let resolvePluginName = plugins.filter((item) =>
+            item.includes('node-resolve'),
+          );
+
+          if (resolvePluginName.length) {
+            const index = plugins.indexOf(resolvePluginName[0]);
+            if (!Array.isArray(content.plugins[index])) {
+              content.plugins[index] = [content.plugins[index], {}];
+            }
+
+            content.plugins[index][1] = {
+              browser: true,
+              preferBuiltins: false,
+            };
+          }
+        }
+        return content;
+      },
       'tsconfig': {
         compilerOptions: {
           moduleResolution: 'nodenext',
