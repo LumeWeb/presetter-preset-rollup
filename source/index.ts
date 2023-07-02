@@ -80,6 +80,9 @@ export default function (): PresetAsset {
         include: ['{buildSource}'],
         compilerOptions: {
           outDir: '{source}',
+          compilerOptions: {
+            moduleResolution: 'nodenext',
+          },
         },
       },
     },
