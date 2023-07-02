@@ -1,3 +1,10 @@
+## [4.0.2-develop.12](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.11...v4.0.2-develop.12) (2023-07-02)
+
+
+### Bug Fixes
+
+* need to split ts moduleResolution to the tsconfig file ([d31720c](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/d31720ce140c7e2dafc4be4c673d38a2a2ba51be))
+
 ## [4.0.2-develop.11](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.10...v4.0.2-develop.11) (2023-07-02)
 
 
