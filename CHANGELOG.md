@@ -1,3 +1,10 @@
+## [4.0.2-develop.10](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.9...v4.0.2-develop.10) (2023-07-02)
+
+
+### Bug Fixes
+
+* needs to extend presetter-preset-strict ([d526d8a](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/d526d8ad6cb16833ba0ebea51eb6004515e1d91d))
+
 ## [4.0.2-develop.9](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.8...v4.0.2-develop.9) (2023-06-30)
 
 
