@@ -1,3 +1,10 @@
+# [4.1.0-develop.3](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.1.0-develop.2...v4.1.0-develop.3) (2023-07-02)
+
+
+### Bug Fixes
+
+* add inlineDynamicImports ([3e4d300](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/3e4d3007b6908e8daecc907091ad22626e28782a))
+
 # [4.1.0-develop.2](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.1.0-develop.1...v4.1.0-develop.2) (2023-07-02)
 
 
