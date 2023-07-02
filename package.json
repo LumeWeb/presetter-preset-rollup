@@ -42,10 +42,10 @@
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "presetter": "^4.0.1",
-        "presetter-preset-esm": "^4.0.1",
         "semantic-release": "^21.0.6"
     },
     "dependencies": {
+        "presetter-preset-strict": "^4.0.1",
         "presetter-types": "^4.0.1",
         "type-fest": "^3.12.0"
     },

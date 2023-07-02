@@ -56,6 +56,7 @@ export const DEFAULT_VARIABLE: Variable = {
  */
 export default function (): PresetAsset {
   return {
+    extends: ['presetter-preset-strict'],
     template: {
       /* eslint-disable @typescript-eslint/naming-convention */
       'rollup.config.ts': (context) => {
