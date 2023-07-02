@@ -1,3 +1,10 @@
+## [4.0.2-develop.11](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.10...v4.0.2-develop.11) (2023-07-02)
+
+
+### Bug Fixes
+
+* set TS moduleResolution to nodenext ([f1b82f8](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/commit/f1b82f85b1db77fffadb3452330b015ae9bf166b))
+
 ## [4.0.2-develop.10](https://git.lumeweb.com/LumeWeb/presetter-preset-rollup/compare/v4.0.2-develop.9...v4.0.2-develop.10) (2023-07-02)
 
 
