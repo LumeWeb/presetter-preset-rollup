@@ -1,12 +1,12 @@
 {
     "name": "@lumeweb/presetter-preset-rollup",
-    "version": "4.1.0-develop.3",
+    "version": "4.1.0-develop.4",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/presetter-preset-rollup",
-            "version": "4.1.0-develop.3",
+            "version": "4.1.0-develop.4",
             "license": "MIT",
             "dependencies": {
                 "@rollup/plugin-commonjs": "^25.0.0",
